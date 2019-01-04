@@ -1,0 +1,42 @@
+    {
+      "storage": "1",
+      "varName": "param",
+      "comparison": "1",
+      "value": "(\"Abyss Striker\", \"abyss striker\")",
+      "iftrue": "0",
+      "iftrueVal": "",
+      "iffalse": "2",
+      "iffalseVal": "",
+      "name": "Check Variable"
+    },
+    {
+      "title": "Abyss Striker",
+      "author": "${tempVars(\"user\")}",
+      "color": "RANDOM",
+      "timestamp": "true",
+      "url": "",
+      "authorIcon": "${tempVars(\"avi\")}",
+      "imageUrl": "https://vignette.wikia.nocookie.net/flightrising/images/0/08/Abyss_Striker.png/revision/latest?cb=20140630064719",
+      "thumbUrl": "https://vignette4.wikia.nocookie.net/flightrising/images/8/89/Wiki-wordmark.png/revision/latest?cb=20150702235914",
+      "storage": "1",
+      "varName": "abyss",
+      "name": "Create Embed Message"
+    },
+    {
+      "storage": "1",
+      "varName": "abyss",
+      "fieldName": "Discription",
+      "message": "These observers cluster around ancient aquatic ruins. They may change color to blend with their surroundings.",
+      "inline": "0",
+      "name": "Add Embed Field"
+    },
+    {
+      "storage": "1",
+      "varName": "abyss",
+      "channel": "0",
+      "varName2": "",
+      "name": "Send Embed Message"
+    },
+    {
+      "name": "End Action Sequence"
+    },
